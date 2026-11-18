@@ -271,6 +271,11 @@ html, body { width: 100%; height: 100%; overflow: hidden; }
   border-color: #89ddff;
   outline: none;
 }
+.icon-btn-disabled,
+.icon-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
 
 .palette {
   display: flex;
